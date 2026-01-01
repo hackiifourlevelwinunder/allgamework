@@ -1,0 +1,47 @@
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter,Arial,sans-serif;
+  background:radial-gradient(1200px 600px at 50% -10%, #142a7a, #050814);
+  color:#e9f1ff;
+}
+.wrap{max-width:720px;margin:0 auto;padding:16px}
+.card{
+  background:linear-gradient(160deg,#0f2a5c,#08142f);
+  border-radius:18px;
+  padding:18px;
+  margin:14px 0;
+  box-shadow:0 0 30px rgba(0,255,213,.15);
+}
+.h1{font-size:22px;font-weight:800;letter-spacing:.6px}
+.sub{opacity:.8}
+.timer{font-size:28px;color:#00ffd5;font-weight:700}
+.big{
+  font-size:92px;
+  text-align:center;
+  color:#00ffd5;
+  text-shadow:0 0 34px rgba(0,255,213,.9);
+}
+.btn{
+  background:linear-gradient(90deg,#00ffd5,#00bfff);
+  color:#001;
+  border:none;
+  border-radius:999px;
+  padding:12px 28px;
+  font-weight:800;
+  letter-spacing:.6px;
+}
+.input{
+  width:100%;
+  padding:14px 16px;
+  border-radius:14px;
+  border:1px solid rgba(0,255,213,.35);
+  background:#050814;
+  color:#e9f1ff;
+  outline:none;
+}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:10px;text-align:center}
+.table th{color:#00ffd5}
+.footer{opacity:.6;text-align:center;margin:12px 0}

@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Login</title>
+</head>
+<body>
+<div class="wrap">
+  <div class="card" style="margin-top:120px;text-align:center">
+    <div class="h1">LOGIN</div><br>
+    <input class="input" id=p type=password placeholder="Enter access password">
+    <br><br>
+    <button class="btn" onclick="go()">LOGIN</button>
+  </div>
+  <div class="footer">Contact on Telegram for password</div>
+</div>
+<script>
+const ok=["VIP*123","ABC*123","SACHIN*123","PROFIT*123"];
+function go(){ ok.includes(p.value)?location='game.html':alert('Wrong password'); }
+</script>
+</body>
+</html>
